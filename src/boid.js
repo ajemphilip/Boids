@@ -34,7 +34,7 @@ class Boid {
             this.mesh.position.x -= this.vel.x * 60
         }
     }
-
+    //update angle modified from the tutorial
     updateAngle(angle) {
         this.mesh.rotation.y += angle;
     }
